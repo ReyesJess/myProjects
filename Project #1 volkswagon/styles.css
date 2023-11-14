@@ -1,0 +1,1277 @@
+
+
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+h2 {
+  vertical-align: center;
+  text-align: center;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+  transition: ease .3s;
+}
+
+* {
+  font-family: "Raleway";
+  box-sizing: border-box;
+}
+
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+ 
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: black;
+  height: 50px;
+  padding: 1em;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu > li {
+  margin: 0 1rem;
+  overflow: hidden;
+}
+
+.menu-button-container {
+  display: none;
+  height: 100%;
+  width: 30px;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+  display: block;
+  background-color: black;
+  position: absolute;
+  height: 4px;
+  width: 30px;
+  transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  border-radius: 2px;
+}
+
+.menu-button::before {
+  content: "";
+  margin-top: -8px;
+}
+
+.menu-button::after {
+  content: "";
+  margin-top: 8px;
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::before {
+  margin-top: 0px;
+  transform: rotate(405deg);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button {
+  background: rgba(255, 255, 255, 0);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::after {
+  margin-top: 0px;
+  transform: rotate(-405deg);
+}
+
+@media (max-width: 400px)and (min-width: 200px){
+  .footer-col{
+    width: 100%;
+}
+  html,body{
+    overflow-x: hidden;
+   
+}
+body{
+  transition: ease-in 1s
+
+}
+div.container{
+  position: relative;
+}
+.wrapper{
+  position: relative;
+  text-align: center;
+  overflow-x: hidden;
+  margin-top: -2rem;
+  
+}
+
+.container{
+ top: -2.5rem;
+  background-image: url(/800pxPlus/VW_NGW6_Homepage_BasicStage-MastheadDesktop-GolfGTI.webp);
+  background-repeat: no-repeat;
+  background-position:  -300px 35px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px;
+  z-index: -1;
+margin: 0 auto;
+
+}
+
+.wrapper button{
+  font-weight: 500;
+  font-size: 1rem;
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 20px;
+background-color: rgb(11, 11, 138);
+
+}
+.button-container{
+  border-bottom: 1px solid rgba(150, 150, 150, 0.329);
+  padding-bottom: 20px;
+  display: block;
+  text-align: center;
+
+}
+.wrapper2 img{
+  padding: 20px 40px;
+}
+.wrapper2 {
+  text-align: center;
+
+}
+.new-car-section h3, .new-car-section p{
+ line-height: 5px;
+  font-size: 1.4rem;
+}
+
+.new-car-section p{
+  border-bottom: 1px solid rgba(150, 150, 150, 0.329);
+  padding-bottom: 20px;
+}
+.container3 img{
+  padding: 20px 40px;
+}
+.wrapper3 .bigger-p {
+  padding: 20px 40px;
+  width: 95%;
+  margin: 0 auto;
+
+}
+.wrapper3 .smaller-p{
+  padding: 20px 40px;
+  width: 75%;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  border-left: 2px solid rgba(150, 150, 150, 0.329);
+
+}
+.smaller-p span{
+  font-weight: 700;
+}
+
+.see-offers-container {
+text-align: left;
+padding: 0px 0px 0px 45px;
+margin-top: -.5em;
+
+      }
+      .see-offers-container a{
+        font-size: 1rem;
+        font-weight: 600;
+        text-underline-offset: 3px;
+        color: rgb(57, 57, 158);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-seri;
+        
+      }
+
+.container4{
+  width: 400px;
+  overflow: hidden;
+}
+.wrapper4{
+  padding: 20px 30px;
+}
+.wrapper4 h2,.wrapper4 p{
+font-weight: 500;
+
+
+}
+.container5{
+  width: 100%;
+}
+.wrapper5 img{
+  width: 400px;
+}
+.wrapper5 h3, .wrapper5 p, .wrapper5 a{
+  padding: 20px 30px;
+
+}
+.a-container{
+  text-underline-offset: 4px;
+}
+.wrapper5 span{
+  font-weight: 100;
+}
+.container6{
+  width: 100%;
+  margin-top: 20px;
+}
+.wrapper6 img{
+  width: 400px;
+  padding: 20px 30px;
+
+}
+.wrapper7{
+  overflow: hidden;
+  text-align: center;
+  width: 400px;
+  overflow: hidden;
+  padding: 20px 30px;
+  margin: 0 auto;
+
+}
+
+.wrapper7 img{
+  
+  width: 300px;
+  padding: 20px 30px;
+  margin: 0 auto;
+margin-top: 15px;
+  background-color: gray;
+
+}
+.container7{
+  width: 400px;
+
+}
+.container7 button{
+  font-weight: 500;
+  font-size: 1rem;
+  color: white;
+  border: none;
+  width:10rem;
+  padding: 10px;
+  border-radius: 20px;
+background-color: rgb(11, 11, 138);
+}
+.container7 .build-info{
+  position: relative;
+  top: 10px;
+  text-underline-offset: 3px;
+  text-decoration: underline;
+}
+.wrapper8{
+  text-align: center;
+}
+.wrapper8 img{
+  width: 400px;
+  padding: 20px 30px;
+  margin: 0 auto;
+margin-top: 15px;
+
+}
+.reserved-container{
+  width: 400px;
+  border-bottom: 2px solid rgb(180, 176, 176);
+
+  
+}
+
+
+.container9 img{
+  width: 400px;
+  padding:20px 40px;
+}
+.have-trouble{
+  height: 4rem;
+}
+.have-trouble h3{
+padding: 20px;
+  width: 85%;
+  border-left: 2px solid rgb(180, 176, 176);
+  height: 100%;
+  text-align: center;
+  margin: 0 auto;
+ 
+
+}
+.military-container img{
+  width: 400px;
+  padding:20px 40px;
+}
+.military{
+  position: relative;
+  margin-left: 10px;
+}
+.military1{
+  padding: 20px;
+  width: 85%;
+  border-left: 2px solid rgb(180, 176, 176);
+  height: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+.military1 span{
+  font-weight: 100;
+}
+.have-trouble span{
+  font-weight: 100;
+}
+.grad-bonus{
+  position: relative;
+  margin-left: 10px;
+}
+.learn-more-container2{
+  border: none;
+  text-align: center;
+  margin-top: 10px;
+ 
+}
+.learn-more-container2 a{
+  text-underline-offset:3px;
+  float: left;
+  margin-left: 10px;
+  color: rgb(44, 78, 129);
+font-weight: 600;
+}
+.mobile-hidden{
+  display: none;
+  visibility: hidden;
+}
+}
+
+/*===========WORKON THIS NOW=========*/
+/*===========WORKON THIS NOW=========*/
+@media (max-width: 800px)and (min-width: 401px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+  .container{
+    position: relative;
+    top: -2.5rem;
+     background-image: url(/800pxPlus/VW_NGW6_Homepage_BasicStage-MastheadDesktop-GolfGTI.webp);
+     background-repeat: no-repeat;
+     background-position:  -250px 35px;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     height: 600px;
+     z-index: -1;
+   margin: 0 auto;
+   
+   }
+}
+/*===========WORKON THIS NOW=========*/
+
+/*===========WORKON THIS NOW=========*/
+
+/*===========WORKON THIS NOW=========*/
+
+
+@media (max-width: 1000px)and (min-width: 401px){
+  html,body{
+    overflow-x: hidden;
+    transition: ease-in 1s
+}
+body{
+  transition: ease-in 1s
+
+}
+.menu a{
+  color: black;
+  text-decoration: none;
+font-size: 11px;
+}
+
+.container{
+  position: relative;
+   background-image: url(/800pxPlus/VW_NGW6_Homepage_BasicStage-MastheadDesktop-GolfGTI.webp);
+   background-repeat: no-repeat;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   height: 600px;
+   z-index: -1;
+ margin: 0 auto;
+ 
+ }
+ .wrapper button{
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 20px;
+background-color: rgb(11, 11, 138);
+
+}
+.button-container{
+  border-bottom: 1px solid rgba(150, 150, 150, 0.329);
+  padding-bottom: 20px;
+  display: block;
+  text-align: center;
+
+}
+.wrapper{
+  font-size: 1.2rem;
+  position: relative;
+  text-align: center;
+  overflow-x: hidden;
+  
+}
+.wrapper2 img{
+  padding: 20px 40px;
+  
+}
+.wrapper2 {
+  text-align: center;
+
+}
+.new-car-section h3, .new-car-section p{
+ line-height: 5px;
+  font-size: 1.7rem;
+}
+
+.new-car-section p{
+  border-bottom: 1px solid rgba(150, 150, 150, 0.329);
+  padding-bottom: 20px;
+}
+.new-car-section h3, .new-car-section p{
+  line-height: 5px;
+   font-size: 1.4rem;
+   
+ }
+ 
+ .new-car-section p{
+   border-bottom: 1px solid rgba(150, 150, 150, 0.329);
+   padding-bottom: 20px;
+   
+   
+ }
+ .container3{
+  width: 100%;
+
+
+ }
+ .container3 img{
+  width: 85%;
+   padding: 20px 100px;
+   margin-left: 10%;
+
+ }
+ .wrapper3 .bigger-p {
+   padding: 20px 40px;
+   width: 95%;
+   margin: 0 auto;
+   font-size: 1.2rem;
+   
+ }
+ .wrapper3 .smaller-p{
+   padding: 20px 40px;
+   width: 75%;
+   margin: 0 auto;
+   font-size: 1.5rem;
+   border-left: 2px solid rgba(150, 150, 150, 0.329);
+   
+ 
+ }
+ .smaller-p span{
+   font-weight: 700;
+   
+ }
+ 
+ .see-offers-container {
+ text-align: left;
+ padding: 0px 0px 0px 45px;
+ margin-top: -.5em;
+ 
+ 
+       }
+       .see-offers-container a{
+         font-size: 1rem;
+         font-weight: 600;
+         text-underline-offset: 3px;
+         color: rgb(57, 57, 158);
+         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-seri;
+         
+       }
+ 
+ .container4{
+   width: 100%;
+   overflow: hidden;
+
+ }
+ .wrapper4{
+   padding: 20px 30px;
+   
+ }
+ .wrapper4 h2,.wrapper4 p{
+ font-weight: 500;
+ 
+ 
+ }
+ .container5{
+   width: 100%;
+ }
+ .wrapper5 img{
+   width: 100%;
+
+ }
+ .wrapper5 h3, .wrapper5 p, .wrapper5 a{
+   padding: 20px 30px;
+ 
+ }
+ .a-container{
+   text-underline-offset: 4px;
+   
+ }
+ .wrapper5 span{
+   font-weight: 100;
+ }
+ .container6{
+   width: 100%;
+   margin-top: 20px;
+ }
+ .wrapper6 img{
+   width: 100%;
+   padding: 20px 30px;
+
+ 
+ }
+ .wrapper7{
+  position: relative;
+   overflow: hidden;
+   text-align: center;
+   width: 100%;
+   overflow: hidden;
+   padding: 20px 30px;
+   margin: 0 auto;
+
+ }
+ 
+ .wrapper7 img{
+  position: relative;
+margin-right: 100px;
+   width: 450px;
+   padding: 20px 30px;
+   margin: 0 auto;
+ margin-top: 15px;
+   background-color: gray;
+ 
+ }
+ .container7{
+   width: 100%;
+
+ 
+ }
+ .container7 button{
+   font-weight: 500;
+   font-size: 1rem;
+   color: white;
+   border: none;
+   width:10rem;
+   padding: 10px;
+   border-radius: 20px;
+ background-color: rgb(11, 11, 138);
+ }
+ .container7 .build-info{
+   position: relative;
+   top: 10px;
+   text-underline-offset: 3px;
+   text-decoration: underline;
+   
+ }
+ .wrapper8{
+   text-align: center;
+ }
+ .wrapper8 img{
+   width: 400px;
+   padding: 20px 30px;
+   margin: 0 auto;
+ margin-top: 15px;
+ 
+ 
+ }
+ .reserved-container{
+   width: 100%;
+   border-bottom: 2px solid rgb(180, 176, 176);
+
+   
+ }
+ 
+ 
+ .container9 img{
+   width: 100%;
+   padding:20px 40px;
+   
+ }
+ .have-trouble{
+   height: 4rem;
+   
+ }
+ .have-trouble h3{
+ padding: 20px;
+   width: 85%;
+   border-left: 2px solid rgb(180, 176, 176);
+   height: 100%;
+   text-align: center;
+   margin: 0 auto;
+  
+ 
+ }
+ .military-container img{
+   width: 100%;
+   padding:20px 40px;
+
+ }
+ .military{
+   position: relative;
+   margin-left: 10px;
+
+ }
+ .military1{
+   padding: 20px;
+   width: 85%;
+   border-left: 2px solid rgb(180, 176, 176);
+   height: 100%;
+   text-align: center;
+   margin: 0 auto;
+   
+ }
+ .military1 span{
+   font-weight: 100;
+   
+ }
+ .have-trouble span{
+   font-weight: 100;
+ }
+ .grad-bonus{
+   position: relative;
+   margin-left: 10px;
+   
+ }
+ .learn-more-container2{
+   border: none;
+   text-align: center;
+   margin-top: 10px;
+  
+ }
+ .learn-more-container2 a{
+  
+   text-underline-offset:3px;
+   float: left;
+   margin-left: 10px;
+   color: rgb(44, 78, 129);
+ font-weight: 600;
+ }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===========WORKON THIS NOW=========*/
+/*===========WORKON THIS NOW=========*/
+
+/*===========WORKON THIS NOW=========*/
+
+/*===========WORKON THIS NOW=========*/
+
+/*===========WORKON THIS NOW=========*/
+
+
+/*===========WORKON THIS NOW=========*/
+/*===========WORKON THIS NOW=========*/
+
+/*===========WORKON THIS NOW=========*/
+
+/*===========WORKON THIS NOW=========*/
+
+/*===========WORKON THIS NOW=========*/
+
+
+
+/*===========WORKON THIS NOW=========*/
+/*===========WORKON THIS NOW=========*/
+
+/*===========WORKON THIS NOW=========*/
+
+/*===========WORKON THIS NOW=========*/
+
+/*===========WORKON THIS NOW=========*/
+/*700=============700=======*/
+/*700=============700=======*/
+/*700=============700=======*/
+/*700=============700=======*/
+/*700=============700=======*/
+/*700=============700=======*/
+/*700=============700=======*/
+
+@media (max-width: 700px) {
+  
+  body{
+    transition: ease-in 1s
+  
+  }
+  .menu-button-container {
+
+    display: flex;
+  }
+.menu a{
+  color: white;
+  text-decoration: none;
+}
+  .menu {
+    background-color: black(230, 1, 1);
+    position: absolute;
+    top: 0;
+    margin-top: 50px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #menu-toggle ~ .menu li {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  #menu-toggle:checked ~ .menu li {
+    border: 1px solid #333;
+    height: 2.5em;
+    padding: 0.5em;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .menu > li {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0.5em 0;
+    width: 100%;
+    color: white(255, 0, 0);
+    background-color: #222;
+  }
+
+  .menu > li:not(:last-child) {
+    border-bottom: 1px solid #444;
+  }
+
+/*responsive*/
+
+
+
+}
+/*700=============700=======*/
+/*700=============700=======*/
+/*700=============700=======*/
+/*700=============700=======*/
+/*700=============700=======*/
+
+@media (max-width: 2000px)and (min-width: 1001px){
+
+html,body{
+  overflow-x: hidden;
+  transition: ease-in 1s;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-seri;
+
+}
+body{
+transition: ease-in 1s;
+
+
+
+}
+.menu a{
+color: black;
+text-decoration: none;
+font-size: 11px;
+}
+
+.container{
+position: relative;
+ background-image: url(/800pxPlus/VW_NGW6_Homepage_BasicStage-MastheadDesktop-GolfGTI.webp);
+ background-repeat: no-repeat;
+ -webkit-background-size: cover;
+ background-position:0%;
+-moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+ height: 600px;
+ z-index: -1;
+margin: 0 auto;
+
+}
+.wrapper button{
+font-weight: 500;
+font-size: 1.7rem;
+color: white;
+border: none;
+padding: 15px;
+border-radius: 20px;
+background-color: rgb(11, 11, 138);
+
+}
+.button-container{
+border-bottom: 1px solid rgba(150, 150, 150, 0.329);
+padding-bottom: 20px;
+display: block;
+text-align: center;
+
+}
+.wrapper{
+font-size: 1.7rem;
+position: relative;
+text-align: center;
+overflow-x: hidden;
+
+}
+#bigcar{
+  float: left;
+  width: 35%;
+  border-radius: 5px;
+}
+.wrapper2 img{
+  display: inline-block;
+  position: relative;
+  width: 15%;
+
+
+
+}
+.wrapper2 {
+text-align: center;
+
+
+}
+.new-car-section h3, .new-car-section p{
+line-height: 5px;
+font-size: 1.7rem;
+display: inline-flex;
+width: 25%;
+
+}
+
+.new-car-section p{
+border-bottom: 1px solid rgba(150, 150, 150, 0.329);
+padding-bottom: 20px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.new-car-section h3, .new-car-section p{
+line-height: 5px;
+ font-size: 1.4rem;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.new-car-section p{
+ border-bottom: 1px solid rgba(150, 150, 150, 0.329);
+ padding-bottom: 20px;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.container3{
+width: 100%;
+
+
+}
+#desktop-hidden{
+  display: none;
+  
+}
+.container3 img{
+width: 90%;
+ padding: 20px 100px;
+ margin-left: 10%;
+ margin-top: -2rem;
+
+}
+
+.wrapper3{
+  margin-top: 5rem;
+  display: inline-flex;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.wrapper3 .bigger-p {
+ padding: 20px 40px;
+ width: 95%;
+ margin: 0 auto;
+ font-size: 1.2rem;
+ display: inline-flex;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+ 
+}
+.wrapper3 .smaller-p{
+  
+ padding: 20px 40px;
+ width: 75%;
+ margin: 0 auto;
+ font-size: 1.5rem;
+ border-left: 2px solid rgba(150, 150, 150, 0.329);
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+.smaller-p span{
+ font-weight: 700;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.see-offers-container {
+text-align: left;
+padding: 0px 0px 0px 45px;
+margin-top: -.5em;
+
+     }
+     .see-offers-container a{
+       font-size: 1rem;
+       font-weight: 600;
+       text-underline-offset: 3px;
+       color: rgb(57, 57, 158);
+       
+     }
+.container4 img{
+  width: 45%;
+  float: left;
+  
+
+}
+.container4{
+ width: 100%;
+ overflow: hidden;
+ display: inline-flex;
+
+}
+.wrapper4{
+ padding: 20px 30px;
+ font-size: 1.5rem;
+
+ 
+}
+.wrapper4 h2,.wrapper4 p{
+font-weight: 500;
+width: 50%;
+float: right;
+}
+
+.wrapper4 a{
+  position: relative;
+float: left;
+margin-left: 6rem;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+display: inline-flex;
+}
+
+
+
+.container5{
+ width: 100%;
+
+}
+
+.wrapper5 img{
+  border-radius: 10px;
+ width: 40%;
+float: right;
+margin-right: 2rem;
+transition: transform 5s
+cubic-bezier(0.14, 1.12, 0.67, 0.99) 0s;
+}
+.wrapper5 img:hover{
+  transform: scale(1.1);
+
+}
+.wrapper5 h3, .wrapper5 p, .wrapper5 a{
+ padding: 20px 30px;
+ font-size: 1.4rem;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ width: 75%;
+
+}
+.wrapper5 a{
+  display: inline-flex;
+}
+.a-container{
+ text-underline-offset: 4px;
+ 
+ 
+}
+.wrapper5 span{
+ font-weight: 100;
+ 
+}
+.container6{
+ width: 100%;
+ margin-top: 20px;
+ 
+}
+.wrapper6 img{
+ width: 100%;
+ padding: 20px 30px;
+
+
+}
+.wrapper7{
+position: relative;
+ overflow: hidden;
+ text-align: center;
+ width: 100%;
+ overflow: hidden;
+ padding: 20px 30px;
+ margin: 0 auto;
+
+}
+
+.wrapper7 img{
+position: relative;
+margin-right: 100px;
+ width: 450px;
+ padding: 20px 30px;
+ margin: 0 auto;
+margin-top: 15px;
+ background-color: gray;
+
+}
+.container7{
+ width: 100%;
+
+
+}
+.container7 button{
+ font-weight: 500;
+ font-size: 1rem;
+ color: white;
+ border: none;
+ width:10rem;
+ padding: 10px;
+ border-radius: 20px;
+background-color: rgb(11, 11, 138);
+}
+.container7 .build-info{
+ position: relative;
+ top: 10px;
+ text-underline-offset: 3px;
+ text-decoration: underline;
+ 
+}
+.wrapper8{
+ text-align: center;
+}
+.wrapper8 img{
+ width: 400px;
+ padding: 20px 30px;
+ margin: 0 auto;
+margin-top: 15px;
+
+
+}
+.reserved-container{
+ width: 100%;
+ border-bottom: 2px solid rgb(180, 176, 176);
+
+ 
+}
+
+
+.container9 img{
+ width: 100%;
+ padding:20px 40px;
+ 
+}
+.have-trouble{
+ height: 4rem;
+ 
+}
+.have-trouble h3{
+padding: 20px;
+ width: 85%;
+ border-left: 2px solid rgb(180, 176, 176);
+ height: 100%;
+ text-align: center;
+ margin: 0 auto;
+
+
+}
+.military-container img{
+ width: 100%;
+ padding:20px 40px;
+
+}
+.military{
+ position: relative;
+ margin-left: 10px;
+
+}
+.military1{
+ padding: 20px;
+ width: 85%;
+ border-left: 2px solid rgb(180, 176, 176);
+ height: 100%;
+ text-align: center;
+ margin: 0 auto;
+ 
+}
+.military1 span{
+ font-weight: 100;
+ 
+}
+.have-trouble span{
+ font-weight: 100;
+}
+.grad-bonus{
+ position: relative;
+ margin-left: 10px;
+ 
+}
+.learn-more-container2{
+ border: none;
+ text-align: center;
+ margin-top: 10px;
+
+}
+.learn-more-container2 a{
+
+ text-underline-offset:3px;
+ float: left;
+ margin-left: 10px;
+ color: rgb(44, 78, 129);
+font-weight: 600;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
