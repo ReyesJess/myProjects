@@ -1,2 +1,3 @@
-Some of the projects i have worked on, some are mobile versions, some are responsive. And others are Desktop versions. 
- Getting my feet wet to see my full potential
+Responsive web developer showcasing HTML, CSS, and JavaScript projects. 
+
+Mobile-friendly, desktop-only, and mixed designs for diverse user experiences. Reach out to collaborate or hire!
