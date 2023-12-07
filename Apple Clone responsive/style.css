@@ -1,0 +1,799 @@
+:root {
+    --learnMoreBuyBlue: #287DD3;
+    --white: #ffffff;
+  }
+  
+*{
+   
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav-bar ul{
+    padding: 10px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:2rem;
+    background-color: #F9F9FB;
+    font-size: 13px;
+
+
+}
+.nav-bar a:hover{
+    border-bottom: 1px solid;
+}
+
+.nav-bar > .logo{
+    font-size: 1rem;
+
+}
+.nav-bar a{
+    color: black;
+    text-decoration: none;
+}
+.nav-icons i{
+    font-size: 1rem;
+    position: relative;
+    
+    margin-right: 20px;
+}
+.iphone-15{
+   text-align: center;
+    background-image: url(/iphone-15-pro/hero_iphone15pro__i70z9oz3hj2i_largetall.jpg);
+    background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+    background-color: black;
+
+}
+
+.hover :hover{
+   border-bottom:1px solid ;
+   cursor: pointer;
+   
+}
+.iphone-15{
+    height: 80vh;
+    width: 100%;
+    margin: 0 auto
+}
+.iphoneButton{
+    position: relative;
+
+    color: var(--learnMoreBuyBlue);
+    border: none;
+    background-color:transparent;
+    font-weight: 500;
+    font-size: 1.3rem;
+    top: 4rem;
+}
+
+       
+.iphone-15 > h3{
+font-weight: 400;
+    
+
+}
+.iphone-15 > h1,.iphone-15 h3{
+    font-size: 2.5rem;
+
+    position: relative;
+    color: white;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    top: 3rem;
+}
+
+.save-lives{
+    height: 80vh;
+    width: 100%;
+    
+}
+.save-lives{
+    margin-top: 1rem;
+    text-align: center;
+    background-image: url(/Savelives/red_save_lives.jpg);
+    background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  
+}
+.save-lives h1,h3{
+    font-size: 2.5rem;
+
+    position: relative;
+    color: black;
+    display: block;
+    top: 3rem;
+    
+}
+.save-lives h3{
+    font-weight: 400;
+    
+}
+.saveLivesButton{
+    position: relative;
+    color: var(--learnMoreBuyBlue);
+    border: none;
+    background-color:transparent;
+    font-weight: 500;
+    font-size: 1.3rem;
+    top: 4rem;
+
+}
+
+
+.appleWatchContainer{
+
+    text-align: center;
+    background-image: url(/appleWatch/applewatchlarge.jpg);
+    background-size: fill;
+  background-position:center 35%;
+  background-repeat: no-repeat;
+  
+   
+}
+.appleWatchContainer{
+    margin-top: 1rem;
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    
+    }
+.appleWatchContainer h1,.appleWatchContainer h4,.appleWatchContainer h3{
+    width: 50%;
+    position: relative;
+    color: white;
+  bottom: 1rem;
+  display: block;
+  margin: 0 auto;
+  top: 25rem;
+  flex-wrap: wrap;
+}
+.appleWatchContainer h3{
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+.appleWatchContainer button {
+    position: relative;
+    color: black;
+    border-radius: 25px;
+    background-color:white;
+    font-weight: 400;
+    font-size: 1.1rem;
+    top: 26rem;
+margin-left: 1rem;
+margin-right: 1rem;   
+ width: 8rem;
+    padding: 10px 10px;
+    border: none;
+
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    padding: 15px 15px;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    
+
+}
+.iphonewrapper{
+    background-image: url(/iphone-15-pro/hero_iphone15pro__i70z9oz3hj2i_small.jpg);
+    background-size: cover;
+    background-position:center bottom;
+    background-repeat: no-repeat;
+    
+}
+    .iphonewrapper{
+        position: relative;
+        height: 60vh;
+        text-align: center;
+     
+
+    }
+    .iphonewrapper h1,.iphonewrapper h4{
+        padding: 15px;
+        text-align: center;
+        color: white;
+        font-size: 1.7rem;
+    }
+.iphonewrapper button{
+    width: auto;
+    position: relative;
+    top: -.8rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+
+}
+.iphonewrapper h4{
+    font-weight: 400;
+    font-size: 1.5rem;
+
+}
+.iphonewrapper h1{
+    position: relative;
+font-size: 3rem;
+top: 2rem;
+}
+.macBookProWrapper{
+    background-image: url(/promos/macbook.jpg);
+    background-size: cover;
+    background-position:center bottom;
+    background-repeat: no-repeat;
+}
+.macBookProWrapper{
+    position: relative;
+        height: 60vh;
+        text-align: center;
+        padding: 15px 15px;
+}
+.macBookProWrapper h1,.macBookProWrapper h4{
+    padding: 15px;
+        text-align: center;
+        font-size: 1.7rem;
+}
+.macBookProWrapper h1{
+    position: relative;
+    font-size: 3rem;
+    top: 2rem;
+
+}
+.macBookProWrapper h3{
+    position: relative;
+    font-weight: 400;
+    font-size: 1.5rem;
+    top: 1rem;
+    
+}
+.macBookProWrapper button{
+    position: relative;
+    top: 1.5rem;
+    font-weight: 400;
+
+}
+.ultraWatchWrapper{
+    background-image: url(/promos/applewatchultramobile.jpg);
+    background-size: cover;
+    background-position:center bottom;
+    background-repeat: no-repeat;
+}
+.ultraWatchWrapper{
+    position: relative;
+    height: 60vh;
+    text-align: center;
+    padding: 15px 15px;
+
+}
+.ultraWatchWrapper h1,.ultraWatchWrapper h4{
+    position: relative;
+    font-size: 2rem;
+    top: 2.5rem;
+
+
+}
+.ultraWatchWrapper h4{
+    letter-spacing: 1.4px;
+    font-size: medium;
+    color: #FC6D39;
+    font-weight: 500;
+}
+.ultraWatchWrapper h3{
+    font-weight: 400;
+    font-size: 1.3rem;
+
+}
+.ultraWatchWrapper button{
+    font-weight: 400;
+}
+.ultraWatchWrapper i{
+    font-size: 2.4rem;
+}
+.airPodsWrapper{
+    background-image: url(/promos/airpods.jpg);
+    background-size: cover;
+    background-position:center bottom;
+    background-repeat: no-repeat;
+    text-align: center;
+
+}
+.airPodsWrapper h1,.airPodsWrapper h3{
+    position: relative;
+    text-align: center;
+    color: white;
+    top: 2.5rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+
+
+}
+.airPodsWrapper button{
+    font-weight: 400;
+}
+.airPodsWrapper h3{
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+.appleCardWrapper{
+    background-image: url(/promos/applecard.jpg);
+    background-size: cover;
+    background-position:center bottom;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.appleCardWrapper{
+    position: relative;
+    height: 60vh;
+    text-align: center;
+    padding: 15px 15px;
+}
+
+.appleCardWrapper h1,.appleCardWrapper h3{
+    position: relative;
+    text-align: center;
+    top: 2.5rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+
+
+}
+.appleCardWrapper h3{
+    font-weight: 400;
+    font-size: 1.3rem;
+    width: 35%;
+    margin: 0 auto;
+
+}
+
+.appleCardWrapper button{
+    top: 3rem;
+    position: relative;
+    font-weight: 400;
+}
+.tradeInWrapper{
+
+    background-image: url(/promos/tradein.jpg);
+    background-size: cover;
+    background-position:center bottom;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.tradeInWrapper h1,.tradeInWrapper h3{
+    position: relative;
+    text-align: center;
+    top: 2.5rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+
+
+}
+.tradeInWrapper h3{
+    font-weight: 400;
+    font-size: 1.3rem;
+    width: 35%;
+    margin: 0 auto;
+
+}
+.tradeInWrapper button{
+    top: 3.5rem;
+    position: relative;
+    font-weight: 400;
+}
+sup{
+    font-size: 1rem;
+}
+
+hr{
+    width: 100%;
+    left: 0;
+    border: 1px solid red;
+    position: absolute;
+    color: red;
+}
+
+.footer-col h3{
+    top: 0;
+    position: relative;
+}
+/* Media query for 400< */
+/* Media query for 400< */
+
+/* Media query for 400< */
+/* Media query for 400< */
+/* Media query for 400< */
+@media (max-width:400px){
+    *{
+        transition: .3s ease;
+        
+box-sizing: border-box;  
+  }
+
+ 
+  .iphone-15{
+    padding: 15px 15px;
+    transition: .3s ease;
+
+    background-image: url(/iphone-15-pro/hero_iphone15pro__i70z9oz3hj2i_small.jpg);
+    margin-top: -3rem;
+    
+  }
+  .iphoneButton{
+    position: relative;
+    margin-right: 10px;
+}
+.iphone-15 > h1,h3{
+   padding: 0px 5px;
+   color: white;
+
+}
+.iphone-15 > h3{
+    font-size:20px ;
+
+}
+.nav-bar li{
+display: none;
+
+
+}
+.nav-bar ul{
+    justify-content:flex-end;
+   flex-direction: row;
+    display: flex;
+    background-color: #e4e4e9;
+}
+.nav-icons{
+    position: relative;
+    top: -3rem;
+
+   
+}
+.savelivewrapper h3,.savelivewrapper h1,.savelivewrapper button{
+    padding: 10px 10px;
+    color: black;
+    top: -.6rem;
+}
+.save-lives h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.savelivewrapper button{
+    position: relative;;
+    color: var(--learnMoreBuyBlue);
+}
+
+.appleWatchContainer{
+transition: .3s ease;
+    position: relative;
+    background-image: url(/appleWatch/applewatchsmall.jpg);
+    background-size:cover;
+padding: 15px 15px;
+transition: .3s ease;
+
+   
+}
+.appleWatchContainer{
+    height: 600px;
+}
+ .appleWatchContainer h3,.appleWatchContainer h4,.appleWatchContainer h1,.appleWatchContainer button{
+    bottom: 0;
+   position: relative;
+}
+.appleWatchContainer h3{
+    font-weight: 400;
+    width: 65%;
+    font-size: 1.2rem;
+}
+.appleWatchContainer button{
+    
+    font-size: .8rem;
+    padding: 5px;
+    width: 25%;
+    margin-right: 5px;
+    margin-left: 5px;
+
+}
+.grid-container{
+    display: block;
+    
+ 
+} 
+.iphonewrapper button{
+    width: auto;
+    position: relative;
+    margin-top: -2rem;
+
+
+}
+.iphonewrapper h4{
+    font-size: 1.3rem;
+    position: relative;
+    top: -.7rem;
+    
+}
+.iphonewrapper h3,.iphonewrapper h1{
+    position: relative;
+    
+    top: 1rem;
+}
+.macBookProWrapper{
+    padding: 15px 15px;
+    transition: .3s ease;
+
+        top: 5rem;
+    position: relative;
+    width: auto;
+    background-image: url(/mobilepng/macbookmobile.jpg);
+    background-size: 75%;
+}
+
+.macBookProWrapper h1,.macBookProWrapper h3,.macBookProWrapper button{
+    top: -4rem;
+    position: relative;
+    font-size: 1.4rem;
+}
+.macBookProWrapper h3{
+    position: relative;
+margin-top: -1rem;    
+color: black;
+}
+.macBookProWrapper button{
+    top: -3rem;
+    position: relative;
+    font-size: 1.2rem;
+}
+.ultraWatchWrapper h3{
+    color: black;
+}
+.ultraWatchWrapper button{
+    position: relative;
+    top: 3rem;
+}
+.ultraWatchWrapper{
+    position: relative;
+    margin-top: 5rem;
+    
+}
+.airPodsWrapper{
+    position: relative;
+    height: 60vh;
+    margin-top: 5rem;
+
+}
+.appleCardWrapper{
+    transition: .3s ease;
+    margin-top: 3rem;
+
+padding: 15px 15px;  
+  background-image: url(/promos/applecard.jpg);
+    background-size: cover;
+    background-position:center bottom;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.appleCardWrapper H1,.appleCardWrapper H3{
+    margin-top: 1rem;
+    width: 100%;
+    color: black;
+}
+.appleCardWrapper H1,.appleCardWrapper H3,.appleCardWrapper button{
+position: relative;
+top: -1rem;
+
+}
+.tradeInWrapper{
+    padding: 15px 15px;
+
+    overflow: auto;
+height: 70vh;
+        transition: .3s ease;
+
+    background-image: url(/promos/tradein.jpg);
+    background-size: fill;
+    background-position:center 75px;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.tradeInWrapper h1,.tradeInWrapper h3{
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    width: 100%;
+    color: black;
+}
+.tradeInWrapper h1{
+    font-size: 1.7rem;
+}
+.tradeInWrapper h1,.tradeInWrapper h3,.tradeInWrapper button{
+    position: relative;
+    top: 7rem;
+
+}
+}
+    
+
+.product-list a {
+    text-decoration: none;
+    color: #0070c9;
+  }
+  
+  .product-list a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    background-color: #f2f2f2;
+    font-family: calibri;
+    padding: 0 22px;
+    padding-bottom: 21px;
+    overflow: hidden;
+  }
+  
+  .footer-content {
+    max-width: 980px;
+    margin: 0 auto;
+  }
+  
+  .footer-menu {
+    padding-top: 21px;
+    overflow: hidden;
+  }
+  
+  .footer-col {
+    width: 20%;
+    float: left;
+  }
+  
+  input[type="checkbox"] {
+      display: none;
+  }
+  
+  .footer-content h3{
+      color: #333;
+      font-size: 14px;
+      position: relative;
+      z-index: 1;
+      background: #f2f2f2;
+      margin-bottom: 6px;
+      margin-top: 0;
+  }
+  
+  .product-list {
+      padding: 0;
+      list-style: none;
+      margin: 0;
+  }
+  
+  .product-list li {
+    margin-bottom: 5px;
+    line-height: 1;
+  }
+  
+  .product-list a {
+    color: #555;
+    display: inline-block;
+    font-size: 12px;
+  }
+  
+  .product-list a:hover {
+    color: #333;
+  }
+  
+  input[type="checkbox"]:checked+.col-section .product-list {
+      transition: transform 300ms ease, -webkit-transform 300ms ease;
+      visibility: visible;
+      position: static;
+      transform: none;
+  }
+  
+  input[type="checkbox"]:checked+.col-section h3::after {
+      transform: rotate(45deg) scale(1.08);
+  }
+  
+  .footer-base {
+    padding-top: 34px;
+    padding-bottom: 21px;
+    color: #888;
+    font-size: 12px; 
+  }
+  
+  .footer-more-ways {
+    margin-bottom: 7px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid #d6d6d6;
+  }
+  
+  .nowrap {
+      white-space: nowrap;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    
+    footer {
+      padding: 0 16px;
+      padding-bottom: 21px;
+    }
+    
+    .footer-col {
+      width: 100%;
+    }
+    
+    .item {
+      border-bottom: 1px solid #d6d6d6;
+    }
+    
+    .footer-content h3{
+      padding: 10px 0;
+      margin: 0;
+      cursor: pointer;
+    }
+    
+    .footer-content h3::after {
+      content: '+';
+      float: right;
+      font-size: 14px;
+      font-weight: bold;
+      margin-top: -2px;
+      margin-right: 8px;
+      transition: transform .3s ease
+    }
+    
+    .product-list {
+      visibility: hidden;
+      position: absolute;
+      transform: translateY(-100px);
+      z-index: 1;
+      padding: 5px 0 16px 0;
+    }
+    
+    .product-list li {
+      margin: 0;
+    }
+    
+    .product-list a {
+      display: block;
+      padding: 6px 14px;
+    }
+    
+    .footer-col {
+      overflow: hidden;
+    }
+  }
+  
+  @media only screen and (min-width: 767px) {
+    .item-padding-top {
+      padding-top: 24px;
+    }
+  }
+  
+  .footer-legal-copyright {
+      margin-right: 30px;
+      float: left;
+      margin-top: 3px;
+  }
+  
+  .footer-legal-links {
+    float: left;
+  }
+  
+  .footer-legal-links a {
+    border-right: 1px solid #d6d6d6;
+    margin-right: 10px;
+    padding-right: 12px;
+    display: inline-block;
+    margin-top: 3px;
+    white-space: nowrap;
+    color: #555;
+  }
+  
+  .footer-legal-links a:last-child {
+    border-right: none;
+  }
+  
+  .footer-legal-links a:hover {
+    color: #333;
+  }
